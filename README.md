@@ -19,27 +19,94 @@ To write a program to perform linear search and binary search using python progr
 ## Program:
 i)	#Use a linear search method to match the item in a list.
 ```
+#Developed by: MARIO VIOFER J
+#Register Number: 212223100032
+def binarySearchIter(array, k, low, high):
+    while low<=high:
+        mid=low+(high-low)//2
+        if array[mid]==k:
+            return mid
+        elif array[mid]<k:
+            low=mid+1
+        else:
+            high=mid-1
+    return -1
+array = eval(input())
+array.sort()
+k = eval(input()) 
+print(array)
+res=binarySearchIter(array,k,0,len(array)-1)
+if res==-1:
+    print("Element not found")
+else:
+    print("Element found at index: ",res)
 
 
 
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
-
-
+#Developed by: MARIO VIOFER J
+#Register Number: 212223100032
+def binarySearchIter(array, k, low, high):
+    while low<=high:
+        mid=low+(high-low)//2
+        if array[mid]==k:
+            return mid
+        elif array[mid]<k:
+            low=mid+1
+        else:
+            high=mid-1
+    return -1
+array = eval(input())
+array.sort()
+k = eval(input()) 
+print(array)
+res=binarySearchIter(array,k,0,len(array)-1)
+if res==-1:
+    print("Element not found")
+else:
+    print("Element found at index: ",res)
 
 
 
 ```
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
-
-
+#Developed by: MARIO VIOFER J
+#Register Number: 212223100032
+def binarySearchIter(array, k, low, high):
+    while low<=high:
+        mid=low+(high-low)//2
+        if array[mid]==k:
+            return mid
+        elif array[mid]<k:
+            low=mid+1
+        else:
+            high=mid-1
+    return -1
+array = eval(input())
+array.sort()
+k = eval(input()) 
+print(array)
+res=binarySearchIter(array,k,0,len(array)-1)
+if res==-1:
+    print("Element not found")
+else:
+    print("Element found at index: ",res)
 
 
 
 ```
 ## Sample Input and Output
+i)	#Use a linear search method to match the item in a list.
+![image](https://github.com/Mario-Viofer-J/Search-Algorithms/assets/144979232/804ff93e-091f-48e2-b00f-de08e9a641a9)
+
+ii)	# Find the element in a list using Binary Search(Iterative Method).
+![image](https://github.com/Mario-Viofer-J/Search-Algorithms/assets/144979232/20145383-2cd4-4bf0-ba93-ec7899f11149)
+
+iii)	# Find the element in a list using Binary Search (recursive Method).
+![image](https://github.com/Mario-Viofer-J/Search-Algorithms/assets/144979232/d32012b6-32ec-42d8-bb7f-7c8a06afcad8)
 
 
 
